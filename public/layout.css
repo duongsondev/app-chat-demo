@@ -52,6 +52,7 @@ body{
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px;
+    overflow: scroll;
 }
 #txtMessages{
     background-color: transparent;
