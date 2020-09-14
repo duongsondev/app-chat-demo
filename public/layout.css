@@ -36,9 +36,10 @@ body{
     text-align: right;
 }
 #listMessages{
-    height: 200px;
-    background-color: chocolate;
+    height: 250px;
+    background-color: white;
     margin-bottom: 15px;
+    padding: 10px;
 }
 #txtMessages{
     background-color: transparent;
