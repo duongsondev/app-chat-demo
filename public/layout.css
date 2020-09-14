@@ -19,6 +19,7 @@ body{
 }
 #left, #right{
     min-height: 300px;
+    padding: 10px;
 }
 #boxTitle{
     border: solid 1px black;
@@ -45,4 +46,8 @@ body{
 #txtMessages{
     background-color: transparent;
     border: solid 1px black;
+}
+.ms{
+    border: solid 1px #333;
+    border-radius: 15px 50px 30px;
 }
