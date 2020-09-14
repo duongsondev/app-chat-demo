@@ -3,10 +3,11 @@ var app = express();
 app.use(express.static("./public"));
 app.set("view engine", "ejs");
 app.set("views", "./views");
+var port = Number(process.env.PORT || 5000);
 
 var server = require("http").Server(app);
 var io = require("socket.io")(server);
-server.listen(5000, function(){
+server.listen(port, function(){
     console.log("Listening on 3000");
 });
 
