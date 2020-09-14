@@ -5,8 +5,12 @@ body{
     widows: 680px;
     margin: auto;
 }
+#loginForm{
+    margin-top: 100px;
+}
 #txtUsername{
     background-color: transparent;
+    margin-bottom: 10px;
 }
 #left{
     width: 30%;
