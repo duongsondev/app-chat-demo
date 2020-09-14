@@ -15,6 +15,7 @@ body{
 #left{
     width: 30%;
     float: left;
+    height: 450px;
 }
 #right{
     width: 70%;
